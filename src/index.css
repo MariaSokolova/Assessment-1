@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#app {
+  margin: 2em;
+}
+
+.assembly-stage-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.assembly-stage-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.assembly-item {
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 2px 1px 1px black;
+  background-color: white;
+}
+
+.assembly-item:hover {
+  background-color: yellow;
+}
